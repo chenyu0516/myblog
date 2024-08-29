@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = "en"
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "dream"
+
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+
+author = "Leo Weng"
+description = "Magical life journey of Leo"
+avatar = "me/sky.jpg"
+headerTitle = "Blog of Leo"
+motto = "God is good all the time, and all the time God is good!"
+
+footerBottomText = "If you would like to, donate me!!"
+
+rss = true
+
+stickyNav = true
+
+[params.navItems]
+github = { href = "https://github.com/g1eny0ung", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[params.social]
+twitter = "g1eny0ung"
